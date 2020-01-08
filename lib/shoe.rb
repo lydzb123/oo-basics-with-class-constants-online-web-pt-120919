@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
 
-    if BRANDS.include(brand)
+    if BRANDS.includes(brand)
     BRANDS << brand
     end
 
